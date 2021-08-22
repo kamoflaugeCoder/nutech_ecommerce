@@ -1,0 +1,14 @@
+.ImageSection {
+	display: flex;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	.img {
+		width: 100%;
+		height: 50vh;
+		img {
+			width: 100%;
+			object-fit: scale-down;
+			height: 100%;
+		}
+	}
+}
